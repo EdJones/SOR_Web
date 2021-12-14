@@ -91,3 +91,7 @@ body {
 .lead {
   font-size: 20;
 }
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(16,185,129,var(--tw-bg-opacity));
+}
