@@ -58,16 +58,16 @@ Open <http://localhost:3000> to see the page in action.
 
 The following npm scripts are available to you in this starter repo. With the exception of `npm start` and `npm test`, the remaining scripts can be run from your command line with `npm run scriptName`.
 
-| Script | Description |
-| --- | --- |
-| `server` | Starts a local server (<http://localhost:3000>) for development |
-| `watch` | Automatically recompiles CSS as it watches the `scss` directory for changes |
-| `css` | Runs `css-compile` and `css-prefix` |
-| `css-compile` | Compiles source Sass into CSS |
-| `css-lint` | Runs [Stylelint](https://stylelint.io) against source Sass for code quality |
-| `css-prefix` | Runs [Autoprefixer](https://github.com/postcss/autoprefixer) on the compiled CSS |
-| `css-purge` | Runs [PurgeCSS](https://purgecss.com) to remove CSS that is unused by `index.html` |
-| `test` | Runs `css-lint` and `css`, in sequential order |
+| Script        | Description                                                                        |
+| ------------- | ---------------------------------------------------------------------------------- |
+| `server`      | Starts a local server (<http://localhost:3000>) for development                    |
+| `watch`       | Automatically recompiles CSS as it watches the `scss` directory for changes        |
+| `css`         | Runs `css-compile` and `css-prefix`                                                |
+| `css-compile` | Compiles source Sass into CSS                                                      |
+| `css-lint`    | Runs [Stylelint](https://stylelint.io) against source Sass for code quality        |
+| `css-prefix`  | Runs [Autoprefixer](https://github.com/postcss/autoprefixer) on the compiled CSS   |
+| `css-purge`   | Runs [PurgeCSS](https://purgecss.com) to remove CSS that is unused by `index.html` |
+| `test`        | Runs `css-lint` and `css`, in sequential order                                     |
 
 ## Advanced usage
 
@@ -122,3 +122,79 @@ At the root of the repo, `.stylelintignore` is used to list files that we ignore
 ## Copyright
 
 &copy; @mdo 2020-2021 and licensed MIT.
+
+# Science of Reading App - Vue.js Version
+
+This is a Vue.js version of the Science of Reading website, designed to be hosted on Vercel.
+
+## Features
+
+- Vue 3 with Composition API
+- Vue Router for navigation
+- Bootstrap CSS for styling
+- Responsive design
+- Vercel-ready deployment
+
+## Development
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Start development server:
+```bash
+npm run dev
+```
+
+3. Build for production:
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is configured for deployment on Vercel. Simply connect your repository to Vercel and it will automatically build and deploy.
+
+### Manual Deployment
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. The built files will be in the `dist` directory, ready for deployment.
+
+## Project Structure
+
+```
+src/
+├── assets/
+│   ├── css/
+│   │   └── starter.css
+│   └── images/
+├── components/
+├── router/
+│   └── index.js
+├── views/
+│   ├── Home.vue
+│   ├── OpenSource.vue
+│   ├── Privacy.vue
+│   ├── TenSkills.vue
+│   └── Timeline.vue
+├── App.vue
+└── main.js
+```
+
+## Original Website
+
+This Vue.js version maintains the same content and styling as the original Bootstrap website while providing a modern, component-based architecture.
+
+Created by Ed Jones with the guidance of many great teachers and literacy experts.
