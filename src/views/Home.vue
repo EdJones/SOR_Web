@@ -123,7 +123,7 @@
                 </a>
                 <img
                   src="https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/ac31e6c9dc4bf617c596be5caaf38272/39d3c86067c606fe51179bc68c7dd17c.png"
-                  width="120" alt="iOS QR Code" class="rounded">
+                  width="120" height="120" alt="iOS QR Code" class="rounded">
 
                 <a href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itsct=apps_box_badge&amp;itscg=30200"
                   class="d-inline-block">
@@ -162,7 +162,7 @@
             <div class="open-source-section">
               <h2 class="h3 mb-3">An Open Source Initiative.</h2>
               <p class="fs-5 mb-4">We're not there yet. But that's the plan.</p>
-              <div class="d-flex flex-column flex-sm-row gap-3 mb-4">
+              <div class="d-flex flex-column flex-sm-row gap-4 mb-4">
                 <router-link to="/open-source" class="btn btn-secondary btn-lg">
                   <h5 class="mb-0">Explore the roadmap.</h5>
                 </router-link>
@@ -329,6 +329,19 @@ export default {
   padding: 1.5rem;
   border-radius: 0.5rem;
   border-left: 4px solid #28a745;
+}
+
+/* Button spacing improvements */
+.open-source-section .btn {
+  margin: 0.25rem;
+  min-width: 200px;
+}
+
+/* QR code image fixes */
+img[alt="iOS QR Code"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* GitHub link */
