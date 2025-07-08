@@ -4,7 +4,7 @@
       <div class="col-12 col-lg-8">
         <header class="pb-3 mb-4 border-bottom">
           <h1 class="display-4 text-center text-md-start mb-4">Science of Reading&#8211;the App</h1>
-          
+
           <!-- App Store Badges - Mobile Optimized -->
           <div class="row g-3 mb-4">
             <div class="col-6 col-md-3">
@@ -12,34 +12,34 @@
                 class="d-block text-center">
                 <img
                   src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
-                  alt="Download on the App Store"
-                  class="img-fluid" style="max-height: 60px; width: auto;">
+                  alt="Download on the App Store" class="img-fluid" style="max-height: 60px; width: auto;">
               </a>
             </div>
 
             <div class="col-6 col-md-3">
               <a href='https://play.google.com/store/apps/details?id=com.edwincjones.reading&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
                 class="d-block text-center">
-                <img alt='Get it on Google Play' src='/assets/images/en_badge_web_generic.png'
-                  class="img-fluid" style="max-height: 60px; width: auto;" />
+                <img alt='Get it on Google Play' src='/assets/images/en_badge_web_generic.png' class="img-fluid"
+                  style="max-height: 60px; width: auto;" />
               </a>
             </div>
           </div>
-          
+
           <!-- Hero Image -->
           <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-8 col-lg-6">
               <img src="/assets/images/classroom.png" class="img-fluid rounded" alt="Youth in class.">
             </div>
           </div>
         </header>
-        
+
         <!-- Main Content -->
         <div class="mb-5">
           <p class="lead fs-4 mb-3">Nearly all children can learn to read. Far too many do not.</p>
-          <p class="fs-5">Do flawed ideas about reading hold young people back? Especially poor children or children of color?</p>
+          <p class="fs-5">Do flawed ideas about reading hold young people back? Especially poor children or children of
+            color?</p>
         </div>
-        
+
         <h1 class="display-5 text-center text-md-start mb-5">Start Upping Your Game Today</h1>
 
         <!-- Feature Sections -->
@@ -48,18 +48,22 @@
             <div class="h-100 p-4 bg-light rounded">
               <h2 class="h3 mb-3">Deep understanding of both the science and the practical aspects of teaching.</h2>
               <p class="mb-3">Explore with us how kids learn (and don't learn) to read.</p>
-              <p class="mb-0">Every teacher, and most parents, can learn something that will help make kids' lives easier.</p>
+              <p class="mb-0">Every teacher, and most parents, can learn something that will help make kids' lives
+                easier.</p>
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="h-100 p-4 bg-light rounded">
-              <h2 class="h3 mb-3">Over 250 articles, videos, podcasts, checklists, interactive engagements; and growing.</h2>
-              <p class="mb-3">It's a tool for all educators, citizens and parents and all who care for kids and the future.</p>
-              <p class="mb-0">We hope you'll pay it forward, try the app, and help us make it even better for the generation of teachers and parents coming up.</p>
+              <h2 class="h3 mb-3">Over 250 articles, videos, podcasts, checklists, interactive engagements; and growing.
+              </h2>
+              <p class="mb-3">It's a tool for all educators, citizens and parents and all who care for kids and the
+                future.</p>
+              <p class="mb-0">We hope you'll pay it forward, try the app, and help us make it even better for the
+                generation of teachers and parents coming up.</p>
             </div>
           </div>
         </div>
-        
+
         <!-- Image Gallery -->
         <div class="row g-3 mb-5">
           <div class="col-12 col-md-4">
@@ -72,18 +76,22 @@
             <img src="/assets/images/level2.jpg" class="img-fluid rounded" alt="Level 2 image">
           </div>
         </div>
-        
+
         <hr class="my-5">
-        
+
         <!-- Social Justice Section -->
         <div class="row mb-5">
           <div class="col-12 col-lg-10">
             <h2 class="h3 mb-4">A social justice issue for millions of kids.</h2>
-            <p class="fs-5 mb-4">Nearly half of schools of education <i>still</i> don't teach how children actually learn to read.</p>
+            <p class="fs-5 mb-4">Nearly half of schools of education <i>still</i> don't teach how children actually
+              learn to read.</p>
             <ul class="icon-list fs-6">
-              <li class="mb-3">Black and low-SES Americans are the most vulnerable to bad ideas about how to teach reading.</li>
-              <li class="mb-3">The effects can be seen up through college, with remedial classes and dropouts common among those with low reading abilities.</li>
-              <li class="mb-0">The school-to-prison pipeline starts with inadequate understanding of how kids learn to read, and the use of shoddy curricula which makes the problem worse.</li>
+              <li class="mb-3">Black and low-SES Americans are the most vulnerable to bad ideas about how to teach
+                reading.</li>
+              <li class="mb-3">The effects can be seen up through college, with remedial classes and dropouts common
+                among those with low reading abilities.</li>
+              <li class="mb-0">The school-to-prison pipeline starts with inadequate understanding of how kids learn to
+                read, and the use of shoddy curricula which makes the problem worse.</li>
             </ul>
           </div>
         </div>
@@ -99,17 +107,18 @@
               <div class="d-flex flex-column align-items-center align-items-md-start gap-3">
                 <a href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itscg=30200&amp;itsct=apps_box_appicon"
                   class="d-inline-block">
-                  <img src="/assets/images/science-of-reading.png" alt="Science of Reading"
-                    class="rounded" style="width: 120px; height: 120px;">
+                  <img src="/assets/images/science-of-reading.png" alt="Science of Reading" class="rounded"
+                    style="width: 120px; height: 120px;">
                 </a>
-                <img src="https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/ac31e6c9dc4bf617c596be5caaf38272/39d3c86067c606fe51179bc68c7dd17c.png"
+                <img
+                  src="https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/ac31e6c9dc4bf617c596be5caaf38272/39d3c86067c606fe51179bc68c7dd17c.png"
                   width="120" alt="iOS QR Code" class="rounded">
 
                 <a href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itsct=apps_box_badge&amp;itscg=30200"
                   class="d-inline-block">
-                  <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
-                    alt="Download on the App Store"
-                    class="img-fluid" style="max-width: 250px;">
+                  <img
+                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
+                    alt="Download on the App Store" class="img-fluid" style="max-width: 250px;">
                 </a>
               </div>
             </div>
@@ -124,9 +133,10 @@
                   <img src="/assets/images/sor_icon_android.png" width="120" alt="Android App Icon" class="rounded">
                   <img src="/assets/images/SOR_Android_QR.png" width="120" alt="Android QR Code" class="rounded">
                 </div>
-                <a href='https://play.google.com/store/apps/details?id=com.edwincjones.reading&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                  <img alt='Get it on Google Play' src='/assets/images/en_badge_web_generic.png'
-                    class="img-fluid" style="max-height: 72px;" />
+                <a
+                  href='https://play.google.com/store/apps/details?id=com.edwincjones.reading&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                  <img alt='Get it on Google Play' src='/assets/images/en_badge_web_generic.png' class="img-fluid"
+                    style="max-height: 72px;" />
                 </a>
               </div>
             </div>
@@ -144,7 +154,8 @@
               <router-link to="/open-source" class="btn btn-secondary btn-lg">
                 <h5 class="mb-0">Explore the roadmap.</h5>
               </router-link>
-              <a href="https://sharing.clickup.com/18038310/g/h/h6fh6-267/e5d2cab3a177b49" class="btn btn-secondary btn-lg">
+              <a href="https://sharing.clickup.com/18038310/g/h/h6fh6-267/e5d2cab3a177b49"
+                class="btn btn-secondary btn-lg">
                 <h5 class="mb-0">Track live project progress.</h5>
               </a>
             </div>
@@ -160,7 +171,8 @@
 
         <hr class="my-5">
 
-        <p class="text-muted text-center">Created by Ed Jones with the guidance of many great teachers and literacy experts.</p>
+        <p class="text-muted text-center">Created by Ed Jones with the guidance of many great teachers and literacy
+          experts.</p>
       </div>
     </div>
   </div>
@@ -203,21 +215,47 @@ export default {
   .display-4 {
     font-size: 2rem;
   }
-  
+
   .display-5 {
     font-size: 1.75rem;
   }
-  
+
   .fs-4 {
     font-size: 1.1rem !important;
   }
-  
-  .fs-5 {
-    font-size: 1rem !important;
+
+  /* Improve mast image responsiveness on mobile */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
-  
-  .fs-6 {
-    font-size: 0.9rem !important;
+
+  /* Hero image specific improvements */
+  .row .col-12 img.img-fluid {
+    margin: 0 auto;
+    max-height: 400px;
+    object-fit: cover;
   }
 }
-</style> 
+
+.fs-5 {
+  font-size: 1rem !important;
+}
+
+.fs-6 {
+  font-size: 0.9rem !important;
+}
+
+/* Desktop improvements for hero image */
+@media (min-width: 768px) {
+
+  .row .col-md-8 img.img-fluid,
+  .row .col-lg-6 img.img-fluid {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+</style>
