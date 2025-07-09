@@ -56,8 +56,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Begin to allow users to interact more with app (database integration with forms).</p>
-                <span class="timeline-date">Q3 2021</span>
+                <div class="timeline-text">
+                  <p>Begin to allow users to interact more with app (database integration with forms).</p>
+                  <span class="timeline-date">Q3 2021</span>
+                </div>
               </div>
             </li>
 
@@ -68,8 +70,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Improved, more complete, content; with help from SoR Facebook communities. (v0.7.7)</p>
-                <span class="timeline-date">Q4 2021</span>
+                <div class="timeline-text">
+                  <p>Improved, more complete, content; with help from SoR Facebook communities. (v0.7.7)</p>
+                  <span class="timeline-date">Q4 2021</span>
+                </div>
               </div>
             </li>
 
@@ -80,8 +84,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>XP's now in public Google Sheets. With public JSON API.</p>
-                <span class="timeline-date">Q4 2021</span>
+                <div class="timeline-text">
+                  <p>XP's now in public Google Sheets. With public JSON API.</p>
+                  <span class="timeline-date">Q4 2021</span>
+                </div>
               </div>
             </li>
 
@@ -92,8 +98,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Switch to XP's as data, not hard display code. Begin pages as generated from data.</p>
-                <span class="timeline-date">Q4 2021</span>
+                <div class="timeline-text">
+                  <p>Switch to XP's as data, not hard display code. Begin pages as generated from data.</p>
+                  <span class="timeline-date">Q4 2021</span>
+                </div>
               </div>
             </li>
 
@@ -104,8 +112,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Launch project web site.</p>
-                <span class="timeline-date">Q4 2021</span>
+                <div class="timeline-text">
+                  <p>Launch project web site.</p>
+                  <span class="timeline-date">Q4 2021</span>
+                </div>
               </div>
             </li>
 
@@ -116,8 +126,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Launch SoR--College & Grad Students Facebook Group, and Discord Channel.</p>
-                <span class="timeline-date">Q4 2021</span>
+                <div class="timeline-text">
+                  <p>Launch SoR--College & Grad Students Facebook Group, and Discord Channel.</p>
+                  <span class="timeline-date">Q4 2021</span>
+                </div>
               </div>
             </li>
 
@@ -128,8 +140,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>More Level 2 Content, esp Kinder, middle school.</p>
-                <span class="timeline-date">Q1 2022</span>
+                <div class="timeline-text">
+                  <p>More Level 2 Content, esp Kinder, middle school.</p>
+                  <span class="timeline-date">Q1 2022</span>
+                </div>
               </div>
             </li>
 
@@ -140,8 +154,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Launch Level 3 with more research and more detailed instructional help.</p>
-                <span class="timeline-date">Q2 2022</span>
+                <div class="timeline-text">
+                  <p>Launch Level 3 with more research and more detailed instructional help.</p>
+                  <span class="timeline-date">Q2 2022</span>
+                </div>
               </div>
             </li>
 
@@ -152,8 +168,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Tighten up code to make it easier to add pages and lessons.</p>
-                <span class="timeline-date">Q3 2022</span>
+                <div class="timeline-text">
+                  <p>Tighten up code to make it easier to add pages and lessons.</p>
+                  <span class="timeline-date">Q3 2022</span>
+                </div>
               </div>
             </li>
 
@@ -164,9 +182,11 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Expand Level 3 with timeline of the science, with deeper dive into comprehension, with more research
-                  and more detailed instructional help.</p>
-                <span class="timeline-date">Q2 2023</span>
+                <div class="timeline-text">
+                  <p>Expand Level 3 with timeline of the science, with deeper dive into comprehension, with more
+                    research and more detailed instructional help.</p>
+                  <span class="timeline-date">Q2 2023</span>
+                </div>
               </div>
             </li>
 
@@ -177,9 +197,41 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Expand Level 3 with more timeline, linguistics, training programs, instructional approaches,
-                  dyslexia, grad schools, law, finances.</p>
-                <span class="timeline-date">S2 2023</span>
+                <div class="timeline-text">
+                  <p>Expand Level 3 with more timeline, linguistics, training programs, instructional approaches,
+                    dyslexia, grad schools, law, finances.</p>
+                  <span class="timeline-date">S2 2023</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-item completed">
+              <div class="timeline-marker completed">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-text">
+                  <p>Develop SOR Quizzes as a standalone web app. It presents the learning as questions, with answers
+                    including explanations, videos, podcasts, and research papers.</p>
+                  <span class="timeline-date">2024-2025</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-item completed">
+              <div class="timeline-marker completed">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-text">
+                  <p>Develop quizItem and quizSet editors, plus embedded GitHub issues to allow open source
+                    contributions by teachers and coaches.</p>
+                  <span class="timeline-date">2024-2025</span>
+                </div>
               </div>
             </li>
 
@@ -192,8 +244,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Add more specific grade-level help for T's.</p>
-                <span class="timeline-date">S1 2024</span>
+                <div class="timeline-text">
+                  <p>Add more specific grade-level help for T's.</p>
+                  <span class="timeline-date">S1 2024</span>
+                </div>
               </div>
             </li>
 
@@ -205,8 +259,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Develop funding stream--get anchor partners to commit.</p>
-                <span class="timeline-date">S1 2024</span>
+                <div class="timeline-text">
+                  <p>Develop funding stream--get anchor partners to commit.</p>
+                  <span class="timeline-date">S1 2024</span>
+                </div>
               </div>
             </li>
 
@@ -220,8 +276,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Add app tour (nativescript-app-tour)</p>
-                <span class="timeline-date">Awaiting funding</span>
+                <div class="timeline-text">
+                  <p>Add app tour (nativescript-app-tour)</p>
+                  <span class="timeline-date">Awaiting funding</span>
+                </div>
               </div>
             </li>
 
@@ -233,8 +291,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Add tracks for user type: advocate, ed school student, K-3 T, parent, etc.</p>
-                <span class="timeline-date">Awaiting funding</span>
+                <div class="timeline-text">
+                  <p>Add tracks for user type: advocate, ed school student, K-3 T, parent, etc.</p>
+                  <span class="timeline-date">Awaiting funding</span>
+                </div>
               </div>
             </li>
 
@@ -246,8 +306,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Custom playlists.</p>
-                <span class="timeline-date">Awaiting funding</span>
+                <div class="timeline-text">
+                  <p>Custom playlists.</p>
+                  <span class="timeline-date">Awaiting funding</span>
+                </div>
               </div>
             </li>
 
@@ -259,8 +321,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Make app free on appstore, with pro level. (Configure code to accept payments.)</p>
-                <span class="timeline-date">Awaiting funding</span>
+                <div class="timeline-text">
+                  <p>Make app free on appstore, with pro level. (Configure code to accept payments.)</p>
+                  <span class="timeline-date">Awaiting funding</span>
+                </div>
               </div>
             </li>
 
@@ -272,8 +336,10 @@
                 </svg>
               </div>
               <div class="timeline-content">
-                <p>Public code licensing and release on Github.</p>
-                <span class="timeline-date">Partial</span>
+                <div class="timeline-text">
+                  <p>Public code licensing and release on Github.</p>
+                  <span class="timeline-date">Partial</span>
+                </div>
               </div>
             </li>
           </ul>
@@ -577,16 +643,26 @@ export default {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-.timeline-content p {
-  margin: 0 0 0.5rem 0;
+.timeline-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.timeline-text p {
+  margin: 0;
   color: #374151;
   line-height: 1.6;
+  flex: 1;
 }
 
 .timeline-date {
   font-size: 0.875rem;
   color: #6b7280;
   font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Vision Section */
