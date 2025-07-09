@@ -171,18 +171,24 @@
                   <h5 class="mb-0">Track live project progress.</h5>
                 </a>
               </div>
+              <div class="mt-4">
+                <a href="https://github.com/ScienceOfReading/SOR_Content" class="text-decoration-none github-link">
+                  <span class="fs-6">View, copy, suggest changes to the content on</span>
+                  <img src="/assets/images/GitHub_Logo.png" width="60" alt="GitHub Logo" class="ms-2">
+                  <img src="/assets/images/github-mark.png" width="40" alt="GitHub Mark">
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-12">
-            <a href="https://github.com/ScienceOfReading/SOR_Content" class="text-decoration-none github-link">
-              <span class="fs-6">View, copy, suggest changes to the content on</span>
-              <img src="/assets/images/GitHub_Logo.png" width="60" alt="GitHub Logo" class="ms-2">
-              <img src="/assets/images/github-mark.png" width="40" alt="GitHub Mark">
-            </a>
           </div>
         </div>
 
         <hr class="my-5 scientific-divider">
+
+        <div class="text-center mb-3">
+          <a href="https://skunkworks-edu.com" class="text-decoration-none skunkworks-link">
+            <span class="fs-6">Born in Skunkworks\Edu</span>
+          </a>
+        </div>
 
         <p class="text-muted text-center attribution">Created by Ed Jones with the guidance of many great teachers and
           literacy
@@ -355,6 +361,22 @@ img[alt="iOS QR Code"] {
 }
 
 .github-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skunkworks link */
+.skunkworks-link {
+  color: #6c757d;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  display: inline-block;
+}
+
+.skunkworks-link:hover {
+  color: #3498db;
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
