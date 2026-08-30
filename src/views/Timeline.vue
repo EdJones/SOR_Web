@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'Timeline'
-}
-</script> 
+  name: "Timeline",
+};
+</script>

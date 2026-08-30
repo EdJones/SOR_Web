@@ -9,12 +9,20 @@
         </div>
         <div class="col-6 text-end">
           <div class="dropdown">
-            <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" id="mobileMenu" data-bs-toggle="dropdown" aria-expanded="false">
+            <button
+              class="btn btn-outline-secondary btn-sm dropdown-toggle"
+              type="button"
+              id="mobileMenu"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Menu
             </button>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mobileMenu">
               <li><router-link class="dropdown-item" to="/">Home</router-link></li>
-              <li><router-link class="dropdown-item" to="/open-source">Open Source</router-link></li>
+              <li>
+                <router-link class="dropdown-item" to="/open-source">Open Source</router-link>
+              </li>
               <li><router-link class="dropdown-item" to="/privacy">Privacy</router-link></li>
               <li><router-link class="dropdown-item" to="/ten-skills">Ten Skills</router-link></li>
               <li><router-link class="dropdown-item" to="/timeline">Timeline</router-link></li>
@@ -28,8 +36,8 @@
 
 <script>
 export default {
-  name: 'MobileNav'
-}
+  name: "MobileNav",
+};
 </script>
 
 <style scoped>
@@ -53,4 +61,4 @@ export default {
 .dropdown-item:hover {
   background-color: #e9ecef;
 }
-</style> 
+</style>
