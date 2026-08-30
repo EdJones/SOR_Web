@@ -5,28 +5,40 @@
       <div class="container">
         <div class="hero-content">
           <h1 class="hero-title">Science of Reading—the App</h1>
-          <p class="hero-subtitle">Nearly all children can learn to read well. Nearly half do not.</p>
+          <p class="hero-subtitle">
+            Nearly all children can learn to read well. Nearly half do not.
+          </p>
 
           <!-- App Store Badges -->
           <div class="app-badges">
             <div class="badge-container">
-              <a href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itsct=apps_box_badge&itscg=30200"
-                class="app-badge">
+              <a
+                href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itsct=apps_box_badge&itscg=30200"
+                class="app-badge"
+              >
                 <img
                   src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
-                  alt="Download on the App Store" class="badge-image">
+                  alt="Download on the App Store"
+                  class="badge-image"
+                />
               </a>
             </div>
             <div class="badge-container">
-              <a href="https://play.google.com/store/apps/details?id=com.edwincjones.reading&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-                class="app-badge">
-                <img src="/assets/images/en_badge_web_generic.png" alt="Get it on Google Play" class="badge-image">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.edwincjones.reading&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                class="app-badge"
+              >
+                <img
+                  src="/assets/images/en_badge_web_generic.png"
+                  alt="Get it on Google Play"
+                  class="badge-image"
+                />
               </a>
             </div>
           </div>
 
           <div class="hero-image">
-            <img src="/assets/images/youth.jpg" alt="Teens on bus" class="hero-img">
+            <img src="/assets/images/youth.jpg" alt="Teens on bus" class="hero-img" />
           </div>
         </div>
       </div>
@@ -39,7 +51,10 @@
           <h2 class="section-title">Roadmap</h2>
           <p class="section-subtitle">Could be impacted by divine intervention.</p>
           <div class="track-progress">
-            <a href="https://sharing.clickup.com/18038310/g/h/h6fh6-267/e5d2cab3a177b49" class="track-button">
+            <a
+              href="https://sharing.clickup.com/18038310/g/h/h6fh6-267/e5d2cab3a177b49"
+              class="track-button"
+            >
               <h5>Track live project progress</h5>
             </a>
           </div>
@@ -51,13 +66,26 @@
             <!-- Completed Items -->
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Begin to allow users to interact more with app (database integration with forms).</p>
+                  <p>
+                    Begin to allow users to interact more with app (database integration with
+                    forms).
+                  </p>
                   <span class="timeline-date">Q3 2021</span>
                 </div>
               </div>
@@ -65,13 +93,26 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Improved, more complete, content; with help from SoR Facebook communities. (v0.7.7)</p>
+                  <p>
+                    Improved, more complete, content; with help from SoR Facebook communities.
+                    (v0.7.7)
+                  </p>
                   <span class="timeline-date">Q4 2021</span>
                 </div>
               </div>
@@ -79,8 +120,18 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -93,13 +144,26 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Switch to XP's as data, not hard display code. Begin pages as generated from data.</p>
+                  <p>
+                    Switch to XP's as data, not hard display code. Begin pages as generated from
+                    data.
+                  </p>
                   <span class="timeline-date">Q4 2021</span>
                 </div>
               </div>
@@ -107,8 +171,18 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -121,8 +195,18 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -135,8 +219,18 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -149,8 +243,18 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -163,8 +267,18 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -177,14 +291,26 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Expand Level 3 with timeline of the science, with deeper dive into comprehension, with more
-                    research and more detailed instructional help.</p>
+                  <p>
+                    Expand Level 3 with timeline of the science, with deeper dive into
+                    comprehension, with more research and more detailed instructional help.
+                  </p>
                   <span class="timeline-date">Q2 2023</span>
                 </div>
               </div>
@@ -192,14 +318,26 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Expand Level 3 with more timeline, linguistics, training programs, instructional approaches,
-                    dyslexia, grad schools, law, finances.</p>
+                  <p>
+                    Expand Level 3 with more timeline, linguistics, training programs, instructional
+                    approaches, dyslexia, grad schools, law, finances.
+                  </p>
                   <span class="timeline-date">S2 2023</span>
                 </div>
               </div>
@@ -207,14 +345,27 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Develop SOR Quizzes as a standalone web app. It presents the learning as questions, with answers
-                    including explanations, videos, podcasts, and research papers.</p>
+                  <p>
+                    Develop SOR Quizzes as a standalone web app. It presents the learning as
+                    questions, with answers including explanations, videos, podcasts, and research
+                    papers.
+                  </p>
                   <span class="timeline-date">2024-2025</span>
                 </div>
               </div>
@@ -222,14 +373,26 @@
 
             <li class="timeline-item completed">
               <div class="timeline-marker completed">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Develop quizItem and quizSet editors, plus embedded GitHub issues to allow open source
-                    contributions by teachers and coaches.</p>
+                  <p>
+                    Develop quizItem and quizSet editors, plus embedded GitHub issues to allow open
+                    source contributions by teachers and coaches.
+                  </p>
                   <span class="timeline-date">2024-2025</span>
                 </div>
               </div>
@@ -238,9 +401,18 @@
             <!-- In Progress Items -->
             <li class="timeline-item in-progress">
               <div class="timeline-marker in-progress">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -253,9 +425,18 @@
 
             <li class="timeline-item in-progress">
               <div class="timeline-marker in-progress">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -269,10 +450,18 @@
             <!-- Future Items -->
             <li class="timeline-item future">
               <div class="timeline-marker future">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
-                  </path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -285,9 +474,18 @@
 
             <li class="timeline-item future">
               <div class="timeline-marker future">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -300,9 +498,18 @@
 
             <li class="timeline-item future">
               <div class="timeline-marker future">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -315,14 +522,25 @@
 
             <li class="timeline-item future">
               <div class="timeline-marker future">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
                 <div class="timeline-text">
-                  <p>Make app free on appstore, with pro level. (Configure code to accept payments.)</p>
+                  <p>
+                    Make app free on appstore, with pro level. (Configure code to accept payments.)
+                  </p>
                   <span class="timeline-date">Awaiting funding</span>
                 </div>
               </div>
@@ -330,9 +548,18 @@
 
             <li class="timeline-item partial">
               <div class="timeline-marker partial">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                  ></path>
                 </svg>
               </div>
               <div class="timeline-content">
@@ -358,21 +585,29 @@
         <div class="vision-content">
           <div class="vision-card">
             <h3>Transparency & Collaboration</h3>
-            <p>We believe in open collaboration and transparent development processes. Our roadmap and progress are
-              publicly visible, allowing educators and developers to contribute to the future of reading instruction.
+            <p>
+              We believe in open collaboration and transparent development processes. Our roadmap
+              and progress are publicly visible, allowing educators and developers to contribute to
+              the future of reading instruction.
             </p>
           </div>
 
           <div class="vision-card">
             <h3>Community-Driven Development</h3>
-            <p>The Science of Reading app is built with input from educators, researchers, and the broader educational
-              community. We welcome contributions that improve reading outcomes for all students.</p>
+            <p>
+              The Science of Reading app is built with input from educators, researchers, and the
+              broader educational community. We welcome contributions that improve reading outcomes
+              for all students.
+            </p>
           </div>
 
           <div class="vision-card">
             <h3>Evidence-Based Innovation</h3>
-            <p>Our development roadmap prioritizes features that are grounded in scientific research and proven to
-              improve reading outcomes. Every milestone represents a step toward better literacy instruction.</p>
+            <p>
+              Our development roadmap prioritizes features that are grounded in scientific research
+              and proven to improve reading outcomes. Every milestone represents a step toward
+              better literacy instruction.
+            </p>
           </div>
         </div>
       </div>
@@ -389,7 +624,10 @@
         <div class="contribute-grid">
           <div class="contribute-card">
             <h3>Feedback & Testing</h3>
-            <p>Test new features and provide feedback on user experience and educational effectiveness.</p>
+            <p>
+              Test new features and provide feedback on user experience and educational
+              effectiveness.
+            </p>
           </div>
 
           <div class="contribute-card">
@@ -415,11 +653,16 @@
       <div class="container">
         <div class="cta-content">
           <h2>Join Our Mission</h2>
-          <p>Help us build the future of reading instruction. Every contribution makes a difference in a child's reading
-            journey.</p>
+          <p>
+            Help us build the future of reading instruction. Every contribution makes a difference
+            in a child's reading journey.
+          </p>
           <div class="cta-buttons">
-            <a href="https://sharing.clickup.com/18038310/g/h/h6fh6-267/e5d2cab3a177b49"
-              class="cta-button primary">Track Progress</a>
+            <a
+              href="https://sharing.clickup.com/18038310/g/h/h6fh6-267/e5d2cab3a177b49"
+              class="cta-button primary"
+              >Track Progress</a
+            >
             <a href="https://github.com" class="cta-button secondary">View on GitHub</a>
           </div>
         </div>
@@ -430,8 +673,8 @@
 
 <script>
 export default {
-  name: 'OpenSource'
-}
+  name: "OpenSource",
+};
 </script>
 
 <style scoped>
@@ -562,7 +805,7 @@ export default {
 }
 
 .timeline-list::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 20px;
   top: 0;

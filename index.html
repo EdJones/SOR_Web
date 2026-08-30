@@ -1,27 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Science of Reading" content="1480512339, app-argument=myURL" />
+    <title>Science of Reading App</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script type="application/javascript">
+      (function (b, o, n, g, s, r, c) {
+        if (b[s]) return;
+        b[s] = {};
+        b[s].scriptToken = "Xy01OTkwMDk1MzM";
+        b[s].callsQueue = [];
+        b[s].api = function () {
+          b[s].callsQueue.push(arguments);
+        };
+        r = o.createElement(n);
+        c = o.getElementsByTagName(n)[0];
+        r.async = 1;
+        r.src = g;
+        r.id = s + n;
+        c.parentNode.insertBefore(r, c);
+      })(window, document, "script", "https://cdn.oribi.io/Xy01OTkwMDk1MzM/oribi.js", "ORIBI");
+    </script>
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Science of Reading" content="1480512339, app-argument=myURL">
-  <title>Science of Reading App</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <script type="application/javascript">
-    (function (b, o, n, g, s, r, c) { if (b[s]) return; b[s] = {}; b[s].scriptToken = "Xy01OTkwMDk1MzM"; b[s].callsQueue = []; b[s].api = function () { b[s].callsQueue.push(arguments); }; r = o.createElement(n); c = o.getElementsByTagName(n)[0]; r.async = 1; r.src = g; r.id = s + n; c.parentNode.insertBefore(r, c); })(window, document, "script", "https://cdn.oribi.io/Xy01OTkwMDk1MzM/oribi.js", "ORIBI");
-  </script>
-  <!-- Bootstrap JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
-</body>
-
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

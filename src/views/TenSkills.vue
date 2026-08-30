@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'TenSkills'
-}
-</script> 
+  name: "TenSkills",
+};
+</script>
