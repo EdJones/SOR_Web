@@ -7,6 +7,11 @@
             Science of Reading&#8211;the App
           </h1>
 
+          <p class="text-center text-md-start mb-4 tagline">
+            A Critical Tool in The Unfinished Work of
+            <span class="tagline-highlight">Professionalizing Reading Education</span>
+          </p>
+
           <!-- App Store Badges - Mobile Optimized -->
           <div class="row g-3 mb-4">
             <div class="col-6 col-md-3">
@@ -296,6 +301,27 @@ export default {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
+}
+
+.tagline {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1.35rem;
+  letter-spacing: 0.01em;
+}
+
+.tagline-highlight {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .tagline {
+    font-size: 1.1rem;
+  }
 }
 
 .section-title {
