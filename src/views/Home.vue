@@ -163,28 +163,29 @@
             <div class="text-center text-md-start download-section">
               <h2 class="h3 mb-4">iOS</h2>
               <div class="d-flex flex-column align-items-center align-items-md-start gap-3">
-                <a
-                  href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itscg=30200&amp;itsct=apps_box_appicon"
-                  class="d-inline-block"
-                >
+                <div class="d-flex gap-3">
+                  <a
+                    href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itscg=30200&amp;itsct=apps_box_appicon"
+                    class="d-inline-block"
+                  >
+                    <img
+                      src="/assets/images/science-of-reading.png"
+                      alt="Science of Reading"
+                      width="120"
+                      class="rounded"
+                    />
+                  </a>
                   <img
-                    src="/assets/images/science-of-reading.png"
-                    alt="Science of Reading"
+                    src="/assets/images/SOR_iOS_QR.png"
+                    width="120"
+                    alt="iOS QR Code"
                     class="rounded"
-                    style="width: 120px; height: 120px"
                   />
-                </a>
-                <img
-                  src="/assets/images/SOR_iOS_QR.png"
-                  width="120"
-                  height="120"
-                  alt="iOS QR Code"
-                  class="rounded"
-                />
+                </div>
 
                 <a
                   href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itsct=apps_box_badge&amp;itscg=30200"
-                  class="d-inline-block"
+                  class="d-block"
                 >
                   <img
                     src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
@@ -217,6 +218,7 @@
                 </div>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.edwincjones.reading&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                  class="d-block"
                 >
                   <img
                     alt="Get it on Google Play"
@@ -347,15 +349,18 @@ export default {
   transform: translateX(-50%);
 }
 
-/* Store badges - match by width so Apple's (~3:1) and Google's (~3.4:1) badges read as the same size */
+/* Store badges - match by width so Apple's (~3:1) and Google's (~3.4:1) badges read as the same size.
+   Fixed `width` with `max-width: 100%` as the responsive fallback (rather than the reverse) avoids a
+   shrink-to-fit sizing quirk in non-stretched flex columns, where a percentage `width` collapses to
+   the image's own intrinsic size instead of the intended target. */
 .store-badge {
-  width: 100%;
-  max-width: 160px;
+  width: 160px;
+  max-width: 100%;
   height: auto;
 }
 
 .store-badge-lg {
-  max-width: 220px;
+  width: 220px;
 }
 
 /* Hero image enhancements */
