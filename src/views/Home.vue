@@ -22,8 +22,7 @@
                 <img
                   src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
                   alt="Download on the App Store"
-                  class="img-fluid"
-                  style="max-height: 60px; width: auto"
+                  class="img-fluid store-badge"
                 />
               </a>
             </div>
@@ -36,8 +35,7 @@
                 <img
                   alt="Get it on Google Play"
                   src="/assets/images/en_badge_web_generic.png"
-                  class="img-fluid"
-                  style="max-height: 60px; width: auto"
+                  class="img-fluid store-badge"
                 />
               </a>
             </div>
@@ -177,7 +175,7 @@
                   />
                 </a>
                 <img
-                  src="https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/ac31e6c9dc4bf617c596be5caaf38272/39d3c86067c606fe51179bc68c7dd17c.png"
+                  src="/assets/images/SOR_iOS_QR.png"
                   width="120"
                   height="120"
                   alt="iOS QR Code"
@@ -191,8 +189,7 @@
                   <img
                     src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
                     alt="Download on the App Store"
-                    class="img-fluid"
-                    style="max-width: 250px"
+                    class="img-fluid store-badge store-badge-lg"
                   />
                 </a>
               </div>
@@ -224,8 +221,7 @@
                   <img
                     alt="Get it on Google Play"
                     src="/assets/images/en_badge_web_generic.png"
-                    class="img-fluid"
-                    style="max-height: 72px"
+                    class="img-fluid store-badge store-badge-lg"
                   />
                 </a>
               </div>
@@ -349,6 +345,17 @@ export default {
 .text-center .section-title::after {
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* Store badges - match by width so Apple's (~3:1) and Google's (~3.4:1) badges read as the same size */
+.store-badge {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.store-badge-lg {
+  max-width: 220px;
 }
 
 /* Hero image enhancements */
