@@ -7,6 +7,11 @@
             Science of Reading&#8211;the App
           </h1>
 
+          <p class="text-center text-md-start mb-4 tagline">
+            A Critical Tool in The Unfinished Work of
+            <span class="tagline-highlight">Professionalizing Reading Education</span>
+          </p>
+
           <!-- App Store Badges - Mobile Optimized -->
           <div class="row g-3 mb-4">
             <div class="col-6 col-md-3">
@@ -17,8 +22,7 @@
                 <img
                   src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
                   alt="Download on the App Store"
-                  class="img-fluid"
-                  style="max-height: 60px; width: auto"
+                  class="img-fluid store-badge"
                 />
               </a>
             </div>
@@ -31,8 +35,7 @@
                 <img
                   alt="Get it on Google Play"
                   src="/assets/images/en_badge_web_generic.png"
-                  class="img-fluid"
-                  style="max-height: 60px; width: auto"
+                  class="img-fluid store-badge"
                 />
               </a>
             </div>
@@ -160,34 +163,34 @@
             <div class="text-center text-md-start download-section">
               <h2 class="h3 mb-4">iOS</h2>
               <div class="d-flex flex-column align-items-center align-items-md-start gap-3">
-                <a
-                  href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itscg=30200&amp;itsct=apps_box_appicon"
-                  class="d-inline-block"
-                >
+                <div class="d-flex gap-3">
+                  <a
+                    href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itscg=30200&amp;itsct=apps_box_appicon"
+                    class="d-inline-block"
+                  >
+                    <img
+                      src="/assets/images/science-of-reading.png"
+                      alt="Science of Reading"
+                      width="120"
+                      class="rounded"
+                    />
+                  </a>
                   <img
-                    src="/assets/images/science-of-reading.png"
-                    alt="Science of Reading"
+                    src="/assets/images/SOR_iOS_QR.png"
+                    width="120"
+                    alt="iOS QR Code"
                     class="rounded"
-                    style="width: 120px; height: 120px"
                   />
-                </a>
-                <img
-                  src="https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/ac31e6c9dc4bf617c596be5caaf38272/39d3c86067c606fe51179bc68c7dd17c.png"
-                  width="120"
-                  height="120"
-                  alt="iOS QR Code"
-                  class="rounded"
-                />
+                </div>
 
                 <a
                   href="https://apps.apple.com/us/app/science-of-reading/id1480512339?itsct=apps_box_badge&amp;itscg=30200"
-                  class="d-inline-block"
+                  class="d-block"
                 >
                   <img
                     src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576368000&h=b2817af9079e58f9f6f61db62132fdd8"
                     alt="Download on the App Store"
-                    class="img-fluid"
-                    style="max-width: 250px"
+                    class="img-fluid store-badge store-badge-lg"
                   />
                 </a>
               </div>
@@ -215,12 +218,12 @@
                 </div>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.edwincjones.reading&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                  class="d-block"
                 >
                   <img
                     alt="Get it on Google Play"
                     src="/assets/images/en_badge_web_generic.png"
-                    class="img-fluid"
-                    style="max-height: 72px"
+                    class="img-fluid store-badge store-badge-lg"
                   />
                 </a>
               </div>
@@ -298,6 +301,27 @@ export default {
   font-weight: 700;
 }
 
+.tagline {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1.35rem;
+  letter-spacing: 0.01em;
+}
+
+.tagline-highlight {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .tagline {
+    font-size: 1.1rem;
+  }
+}
+
 .section-title {
   color: #2c3e50;
   font-weight: 600;
@@ -323,6 +347,20 @@ export default {
 .text-center .section-title::after {
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* Store badges - match by width so Apple's (~3:1) and Google's (~3.4:1) badges read as the same size.
+   Fixed `width` with `max-width: 100%` as the responsive fallback (rather than the reverse) avoids a
+   shrink-to-fit sizing quirk in non-stretched flex columns, where a percentage `width` collapses to
+   the image's own intrinsic size instead of the intended target. */
+.store-badge {
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+}
+
+.store-badge-lg {
+  width: 220px;
 }
 
 /* Hero image enhancements */
