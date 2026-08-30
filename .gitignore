@@ -2,3 +2,5 @@
 bootstrap-npm-starter/
 .DS_Store
 node_modules/
+dist/
+.vercel/
